@@ -1,0 +1,311 @@
+body {
+            background-color: #f8f5ff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            color: #2a0d42;
+        }
+
+        .navbar {
+            background: #ffffff;
+            height: 75px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo img {
+            width: 55px;
+            height: 55px;
+            border-radius: 10px;
+        }
+
+        .logo h2 {
+            color: #7b2cbf;
+            margin: 0;
+        }
+
+        .navbar-nav .nav-link {
+            color: #2a0d42 !important;
+            transition: 0.3s;
+            font-weight: 500;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #a855f7 !important;
+        }
+
+        .login-btn {
+            background: #7b2cbf;
+            color: white !important;
+            border-radius: 8px;
+            padding: 8px 18px !important;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .login-btn:hover {
+            background: #a855f7;
+            color: white !important;
+        }
+
+        .main-container {
+            display: flex;
+            margin-top: 75px;
+        }
+
+        /* SIDEBAR */
+
+        .sidebar {
+            width: 250px;
+            min-height: 100vh;
+            background: #ffffff;
+            padding: 30px 20px;
+            position: fixed;
+            left: 0;
+            top: 75px;
+            border-right: 1px solid #e5d9ff;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.04);
+        }
+
+        .sidebar h3 {
+            color: #7b2cbf;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 15px;
+        }
+
+        .sidebar ul li a {
+            display: block;
+            padding: 14px;
+            background: #f3e8ff;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #2a0d42;
+            transition: 0.3s;
+            font-weight: 500;
+        }
+
+        .sidebar ul li a:hover {
+            background: #d8b4fe;
+            transform: translateX(5px);
+        }
+
+        /* DASHBOARD */
+
+        .dashboard {
+            margin-left: 250px;
+            width: 100%;
+            padding: 40px 8%;
+        }
+
+        /* CARDS */
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 30px 20px;
+            border-radius: 18px;
+            text-align: center;
+            transition: 0.3s;
+            border: none;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            background: #f3e8ff;
+        }
+
+        .card h2 {
+            color: #7b2cbf;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #444;
+            font-size: 18px;
+        }
+
+        /* TABLE */
+
+        .table-section {
+            margin-top: 40px;
+        }
+
+        .table {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .table th {
+            background: #7b2cbf;
+            color: white;
+            border: none;
+        }
+
+        .table td {
+            background: #ffffff;
+            color: #333;
+            border-color: #eee;
+        }
+
+        /* PROFILE */
+
+        .profile {
+            margin-top: 40px;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+        }
+
+        .profile h2 {
+            color: #7b2cbf;
+            margin-bottom: 20px;
+        }
+
+        .profile p {
+            line-height: 2;
+            color: #444;
+        }
+        .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    background: #ffffff;
+    height: 75px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #2a0d42;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #a855f7;
+}
+        /* RESPONSIVE */
+
+        @media(max-width:991px) {
+
+            .sidebar {
+                width: 220px;
+            }
+
+            .dashboard {
+                margin-left: 220px;
+                padding: 30px;
+            }
+
+        }
+
+        @media(max-width:768px) {
+
+            .main-container {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                position: relative;
+                width: 100%;
+                min-height: auto;
+                top: 0;
+                border-right: none;
+                border-bottom: 1px solid #e5d9ff;
+            }
+
+            .dashboard {
+                margin-left: 0;
+                padding: 20px;
+            }
+
+            .card-container {
+                grid-template-columns: 1fr;
+            }
+
+            .table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+
+            .navbar-nav {
+                background: white;
+                padding: 15px;
+                border-radius: 10px;
+                margin-top: 10px;
+            }
+
+            .login-btn {
+                margin-left: 0;
+                margin-top: 10px;
+                display: inline-block;
+            }
+
+        }
+
+        @media(max-width:480px) {
+
+            .logo h2 {
+                font-size: 22px;
+            }
+
+            .sidebar h3 {
+                font-size: 22px;
+            }
+
+            .card h2 {
+                font-size: 22px;
+            }
+
+            .profile h2 {
+                font-size: 24px;
+            }
+
+            .dashboard {
+                padding: 15px;
+            }
+
+        }
