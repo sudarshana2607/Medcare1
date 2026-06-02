@@ -25,14 +25,12 @@ function Homepage() {
 </nav>
 
 
-      <div className="marquee">
-        <marquee behavior="scroll" direction="left" scrollamount="8">
-          🚑 24/7 Emergency Services Available |
-          💜 Free Health Checkup Camp This Sunday |
-          📞 Emergency Contact : +91 9876543210 |
-          🩺 Expert Doctors Available Across All Departments |
-          💊 Special Offers On Full Body Checkup Packages
-        </marquee>
+      <div className="announcement-bar" role="status" aria-live="polite">
+        🚑 24/7 Emergency Services Available |
+        💜 Free Health Checkup Camp This Sunday |
+        📞 Emergency Contact : +91 9876543210 |
+        🩺 Expert Doctors Available Across All Departments |
+        💊 Special Offers On Full Body Checkup Packages
       </div>
 
       <section className="hero">
@@ -48,7 +46,7 @@ function Homepage() {
           <div className="hero-image">
             <img
               src="https://img.magnific.com/free-photo/copy-space-stethoscope-pills_23-2148550954.jpg"
-              alt="Hospital Image"
+              alt="Stethoscope and pills on a desk"
             />
           </div>
         </div>
