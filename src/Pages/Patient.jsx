@@ -18,11 +18,11 @@ function Patient() {
       </li>
 
       <li className="nav-item">
-        <Link className="nav-link" to="#">Profile</Link>
+        <Link className="nav-link" to="/">Profile</Link>
       </li>
 
       <li className="nav-item">
-        <Link className="nav-link" to="#">Notification</Link>
+        <Link className="nav-link" to="/">Notification</Link>
       </li>
 
       <li className="nav-item">
@@ -40,12 +40,12 @@ function Patient() {
           <h3>Patient Panel</h3>
 
           <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Medical History</a></li>
-            <li><a href="#">Appointment</a></li>
-            <li><a href="#">Medical Report</a></li>
-            <li><a href="#">Prescription</a></li>
-            <li><a href="#">Billing</a></li>
+            <li><a href="/">Dashboard</a></li>
+            <li><a href="/">Medical History</a></li>
+            <li><a href="/">Appointment</a></li>
+            <li><a href="/">Medical Report</a></li>
+            <li><a href="/">Prescription</a></li>
+            <li><a href="/">Billing</a></li>
           </ul>
 
         </div>

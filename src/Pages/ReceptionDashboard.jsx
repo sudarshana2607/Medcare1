@@ -18,8 +18,8 @@ function ReceptionDashboard() {
 
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Notifications</a></li>
+          <li><a href="/">Profile</a></li>
+          <li><a href="/">Notifications</a></li>
 
           <li>
             <button
@@ -37,14 +37,14 @@ function ReceptionDashboard() {
           <h2>Reception Staff</h2>
 
           <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Patient Registration</a></li>
-            <li><a href="#">Appointments</a></li>
-            <li><a href="#">Billing</a></li>
-            <li><a href="#">Emergency Admission</a></li>
-            <li><a href="#">Visitor Management</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Settings</a></li>
+            <li><a href="/">Dashboard</a></li>
+            <li><a href="/">Patient Registration</a></li>
+            <li><a href="/">Appointments</a></li>
+            <li><a href="/">Billing</a></li>
+            <li><a href="/">Emergency Admission</a></li>
+            <li><a href="/">Visitor Management</a></li>
+            <li><a href="/">Support</a></li>
+            <li><a href="/">Settings</a></li>
           </ul>
 
         </div>

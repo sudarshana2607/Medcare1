@@ -19,9 +19,9 @@ function DoctorDashboard() {
         </div>
 
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Notifications</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Profile</a></li>
+          <li><a href="/">Notifications</a></li>
           <li>
             <button onClick={logout}>Logout</button>
           </li>
@@ -37,13 +37,13 @@ function DoctorDashboard() {
           <h3>Doctor Panel</h3>
 
           <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">My Patients</a></li>
-            <li><a href="#">Appointments</a></li>
-            <li><a href="#">Schedule</a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Emergency Cases</a></li>
-            <li><a href="#">Settings</a></li>
+            <li><a href="/">Dashboard</a></li>
+            <li><a href="/">My Patients</a></li>
+            <li><a href="/">Appointments</a></li>
+            <li><a href="/">Schedule</a></li>
+            <li><a href="/">Reports</a></li>
+            <li><a href="/">Emergency Cases</a></li>
+            <li><a href="/">Settings</a></li>
           </ul>
 
         </div>

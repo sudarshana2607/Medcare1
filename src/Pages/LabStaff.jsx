@@ -21,9 +21,9 @@ function LabStaff() {
         </div>
 
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Notifications</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Profile</a></li>
+          <li><a href="/">Notifications</a></li>
           <li>
             <button onClick={logout}>Logout</button>
           </li>
@@ -40,14 +40,14 @@ function LabStaff() {
           <h2>Lab Staff</h2>
 
           <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Test Requests</a></li>
-            <li><a href="#">Sample Collection</a></li>
-            <li><a href="#">Lab Processing</a></li>
-            <li><a href="#">Test Reports</a></li>
-            <li><a href="#">Emergency Tests</a></li>
-            <li><a href="#">Equipment Status</a></li>
-            <li><a href="#">Settings</a></li>
+            <li><a href="/">Dashboard</a></li>
+            <li><a href="/">Test Requests</a></li>
+            <li><a href="/">Sample Collection</a></li>
+            <li><a href="/">Lab Processing</a></li>
+            <li><a href="/">Test Reports</a></li>
+            <li><a href="/">Emergency Tests</a></li>
+            <li><a href="/">Equipment Status</a></li>
+            <li><a href="/">Settings</a></li>
           </ul>
 
         </div>

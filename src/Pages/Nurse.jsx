@@ -17,8 +17,8 @@ function NurseDashboard() {
 
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Notifications</a></li>
+          <li><a href="/">Profile</a></li>
+          <li><a href="/">Notifications</a></li>
           <li>
             <button
               onClick={handleLogout}>
@@ -35,12 +35,12 @@ function NurseDashboard() {
           <h3>Nurse Panel</h3>
 
           <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Assigned Patients</a></li>
-            <li><a href="#">Vital Signs</a></li>
-            <li><a href="#">Medication Records</a></li>
-            <li><a href="#">Ward Management</a></li>
-            <li><a href="#">Emergency Support</a></li>
+            <li><a href="/">Dashboard</a></li>
+            <li><a href="/">Assigned Patients</a></li>
+            <li><a href="/">Vital Signs</a></li>
+            <li><a href="/">Medication Records</a></li>
+            <li><a href="/">Ward Management</a></li>
+            <li><a href="/">Emergency Support</a></li>
           </ul>
 
         </div>

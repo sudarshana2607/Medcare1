@@ -12,7 +12,7 @@ function Homepage() {
 </div>
 
 <ul>
-<li><a href="#">Home</a></li>
+<li><a href="/">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#modules">Features</a></li>
 <li><a href="#departments">Departments</a></li>
@@ -326,11 +326,11 @@ function Homepage() {
             {/* Replace the src below with your actual logo import or a public URL */}
             <img src="/hospital-logo.png" alt="Hospital Logo" />
             <div className="social-icons">
-              <a href="#">Facebook</a>
-              <a href="#">Instagram</a>
-              <a href="#">LinkedIn</a>
-              <a href="#">YouTube</a>
-              <a href="#">WhatsApp</a>
+              <a href="/">Facebook</a>
+              <a href="/">Instagram</a>
+              <a href="/">LinkedIn</a>
+              <a href="/">YouTube</a>
+              <a href="/">WhatsApp</a>
             </div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.9214938728173!2d77.00530347767985!3d10.663201662350483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8382aa12c47c7%3A0x3125acac566855d0!2sSiva%20Meds%20Multispeciality%20Hospital!5e0!3m2!1sen!2sin!4v1779901487034!5m2!1sen!2sin"
@@ -372,16 +372,16 @@ function Homepage() {
           <div>
             <h2 className="footer-heading">Quick Links</h2>
             <ul className="footer-links">
-              <li><a href="#">Hospital Directory</a></li>
-              <li><a href="#">Patient Rights</a></li>
-              <li><a href="#">Hospital Tariff</a></li>
-              <li><a href="#">Health Packages</a></li>
-              <li><a href="#">Patient Education</a></li>
-              <li><a href="#">Medical Services</a></li>
-              <li><a href="#">Departments</a></li>
-              <li><a href="#">Emergency Care</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="/">Hospital Directory</a></li>
+              <li><a href="/">Patient Rights</a></li>
+              <li><a href="/">Hospital Tariff</a></li>
+              <li><a href="/">Health Packages</a></li>
+              <li><a href="/">Patient Education</a></li>
+              <li><a href="/">Medical Services</a></li>
+              <li><a href="/">Departments</a></li>
+              <li><a href="/">Emergency Care</a></li>
+              <li><a href="/">FAQ</a></li>
+              <li><a href="/">Contact Us</a></li>
             </ul>
           </div>
 
@@ -390,9 +390,9 @@ function Homepage() {
         <div className="footer-bottom">
           <div>© 2026 MedCare Hospital. All Rights Reserved.</div>
           <div>
-            <a href="#">Privacy Policy</a> |
-            <a href="#">Disclaimer</a> |
-            <a href="#">Terms & Condition</a>
+            <a href="/">Privacy Policy</a> |
+            <a href="/">Disclaimer</a> |
+            <a href="/">Terms & Condition</a>
           </div>
         </div>
       </footer>

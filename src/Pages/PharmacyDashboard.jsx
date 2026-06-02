@@ -20,8 +20,8 @@ function PharmacyDashboard() {
 
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Notifications</a></li>
+          <li><a href="/">Profile</a></li>
+          <li><a href="/">Notifications</a></li>
 
           <li>
             <button
@@ -45,14 +45,14 @@ function PharmacyDashboard() {
           <h2>Pharmacy Staff</h2>
 
           <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Prescription Requests</a></li>
-            <li><a href="#">Dispense Medicines</a></li>
-            <li><a href="#">Inventory</a></li>
-            <li><a href="#">Low Stock Alerts</a></li>
-            <li><a href="#">Suppliers</a></li>
-            <li><a href="#">Billing Support</a></li>
-            <li><a href="#">Settings</a></li>
+            <li><a href="/">Dashboard</a></li>
+            <li><a href="/">Prescription Requests</a></li>
+            <li><a href="/">Dispense Medicines</a></li>
+            <li><a href="/">Inventory</a></li>
+            <li><a href="/">Low Stock Alerts</a></li>
+            <li><a href="/">Suppliers</a></li>
+            <li><a href="/">Billing Support</a></li>
+            <li><a href="/">Settings</a></li>
           </ul>
 
         </div>

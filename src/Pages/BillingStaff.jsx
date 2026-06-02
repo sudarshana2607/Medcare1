@@ -18,9 +18,9 @@ function BillingStaff() {
         </div>
 
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Notifications</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Profile</a></li>
+          <li><a href="/">Notifications</a></li>
           <li>
             <button onClick={logout}>Logout</button>
           </li>
@@ -36,14 +36,14 @@ function BillingStaff() {
           <h2>Billing Staff</h2>
 
           <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Generate Bills</a></li>
-            <li><a href="#">Patient Payments</a></li>
-            <li><a href="#">Insurance Claims</a></li>
-            <li><a href="#">Pending Payments</a></li>
-            <li><a href="#">Revenue Reports</a></li>
-            <li><a href="#">Transactions</a></li>
-            <li><a href="#">Settings</a></li>
+            <li><a href="/">Dashboard</a></li>
+            <li><a href="/">Generate Bills</a></li>
+            <li><a href="/">Patient Payments</a></li>
+            <li><a href="/">Insurance Claims</a></li>
+            <li><a href="/">Pending Payments</a></li>
+            <li><a href="/">Revenue Reports</a></li>
+            <li><a href="/">Transactions</a></li>
+            <li><a href="/">Settings</a></li>
           </ul>
 
         </div>
